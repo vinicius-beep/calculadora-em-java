@@ -5,14 +5,14 @@ public class Calculadora {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         
-        System.out.println("Bem-vindo à Calculadora!");
+        System.out.println("Calculadora Java");
         System.out.print("Digite o primeiro número: ");
         double num1 = scanner.nextDouble();
         
-        System.out.print("Digite o segundo número: ");
+        System.out.print("Digite o segundo: ");
         double num2 = scanner.nextDouble();
         
-        System.out.println("Escolha a operação:");
+        System.out.println("Escolha uma operação:");
         System.out.println("1. Adição (+)");
         System.out.println("2. Subtração (-)");
         System.out.println("3. Multiplicação (*)");
